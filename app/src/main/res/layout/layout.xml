@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/linear">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="30"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:id="@+id/textView1"
+        android:layout_gravity="left"
+        android:textSize="20sp"/>
+
+
+
+
+    <EditText
+        android:layout_width="0dp"
+        android:layout_weight="70"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Please enter your UserName"
+        android:ems="10"
+        android:id="@+id/editText2"
+        android:layout_gravity="left"
+        android:textSize="15sp"/>
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="30"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:id="@+id/textView3"
+            android:layout_gravity="left"
+            android:textSize="20sp"/>
+
+
+
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="70"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="Please enter your Password"
+            android:ems="10"
+            android:id="@+id/editText4"
+            android:layout_gravity="left"
+            android:textSize="13sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="30"
+            android:layout_height="wrap_content"
+            android:text="Confirm Password"
+            android:id="@+id/textView"
+            android:layout_gravity="left"
+            android:textSize="20sp"/>
+
+
+
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="70"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="Please confirm password"
+            android:ems="10"
+            android:id="@+id/editText"
+            android:layout_gravity="right"
+            android:textSize="13sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:orientation="horizontal"
+        android:gravity="right">
+
+         <Button
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="SUBMIT"
+             android:layout_gravity="right"/>
+
+    </LinearLayout>
+
+
+
+   </LinearLayout>

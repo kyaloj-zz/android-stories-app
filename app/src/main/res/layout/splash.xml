@@ -16,11 +16,11 @@
         android:layout_height="wrap_content"
         android:text="It's Africa..again "
         android:id="@+id/textView2"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="39dp"
+        android:layout_marginTop="71dp"
         android:textSize="40sp"
-        android:textColor="#ffffffff"/>
+        android:textColor="#ffffffff"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 
     <TextView
         android:layout_width="wrap_content"

@@ -22,7 +22,7 @@ public class Splash extends Activity {
                 }catch(InterruptedException e) {
                     e.printStackTrace();
                 }finally {
-                    Intent openmain = new Intent(getBaseContext(),RecyclerViewActivity.class);
+                    Intent openmain = new Intent(getBaseContext(),Main.class);
                     startActivity(openmain);
                     finish();
                 }
